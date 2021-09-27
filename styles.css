@@ -1,0 +1,68 @@
+body, html {
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.primary-link {
+  color: white;    
+  border-radius: 0.5rem ;
+}
+.secondary-link {
+  border-radius: 0.5rem ;
+}
+
+/* lists */
+
+.non-bullet {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* nav */
+.navigation {
+  padding: 0.7rem;
+  color : white;
+  border-radius: 0rem 1rem 0rem 4rem;
+  margin: auto;
+}
+
+.navigation .link {
+   color: white;
+   
+}
+.alignment-nav {
+  text-align: right;
+  margin-top: -1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-brand {
+  margin-left: 5rem;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.navigation .link:hover {
+  background-color: #10B981;
+  border-radius: 2rem;
+}
